@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Book';
+    src: url('../fonts/book_2/Book.otf');
+}
+
+.font-custom {
+    font-family: 'Book', sans-serif;
+}
