@@ -9,9 +9,9 @@
                 <h1 class="text-[40px] font-custom">Welcome To LitCove</h1>
                 <p class=" text-justify text-[18px] font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laudantium temporibus placeat esse, veniam alias facere amet magnam dolorem sed odio beatae quod itaque! Voluptatum exercitationem iusto maiores vel quidem.</p>
                 <div class=" flex flex-col gap-5 w-full mt-2">
-                    <a href="" class=" bg-[#E55B13] w-[30%] text-center text-white font-medium py-2 px-2 rounded-2xl"> Learn More</a>
+                    <a href="/signin" class=" bg-[#E55B13] w-[30%] text-center text-white font-medium py-2 px-2 rounded-2xl"> Learn More</a>
                     <div class=" flex gap-3">
-                        <a href="" class="bg-[#091F5B] w-10 h-10 p-2 rounded-full hover:scale-[1.05] duration-300">
+                        <a href="https://www.instagram.com/dilaamr03?igsh=MWl0czRjeTVrOGVvOQ%3D%3D&utm_source=qr" target="_blank" class="bg-[#091F5B] w-10 h-10 p-2 rounded-full hover:scale-[1.05] duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" class=" invert-[1]" viewBox="0 0 24 24" id="instagram"><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"><rect width="21" height="21" x="1.5" y="1.5" rx="5.48" ry="5.48"></rect><circle cx="12" cy="12" r="5.5"></circle><circle cx="18" cy="5" r=".5"></circle></g></svg>
                         </a>
                         <a href="" class="bg-[#091F5B] w-10 h-10 p-2 rounded-full hover:scale-[1.05] duration-300">

@@ -6,19 +6,19 @@
     <div class=" font-semibold text-[#091F5B]">
         <ul class=" flex gap-8">
             <li>
-                <a href="">
+                <a href="/signin">
                     Home
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/signin">
                     My Books
                 </a>
             </li>
             <li>
-                <a href="">
+                <div id="about-button" class=" cursor-pointer">
                     About us
-                </a>
+                </div>
             </li>
             <li>
                 <a href="/signin">
@@ -38,19 +38,19 @@
     <div class=" font-semibold text-[#091F5B]">
         <ul class=" flex gap-8">
             <li>
-                <a href="">
+                <a href="/">
                     Home
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="/cart/{{auth()->user()->id}}">
                     My Books
                 </a>
             </li>
             <li>
-                <a href="">
+                <div id="about-button" class=" cursor-pointer">
                     About us
-                </a>
+                </div>
             </li>
             <li>
                 <form action="/logout" method="POST">
@@ -60,11 +60,13 @@
                     </button>
                 </form>
             </li>
-            <li class=" flex gap-3 items-center font-medium">
-                <h1 class=" bg-[#E55B13] px-3 py-1 rounded-xl text-white">{{auth()->user()->fullname}}</h1>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
-                </svg>
+            <li class=" font-medium">
+                <a href="/profile/setting/{{auth()->user()->id}}" class="flex gap-3 items-center">
+                    <h1 class=" bg-[#E55B13] px-3 py-1 rounded-xl text-white">{{auth()->user()->fullname}}</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                    </svg>
+                </a>
             </li>
         </ul>
     </div>

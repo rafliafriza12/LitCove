@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="{{asset('style/style.css')}}">
     <title>LitCove | @yield('title')</title>
 </head>
-<body class=" w-screen overflow-x-hidden font-poppins">
-    @include('partials.navbar')
+<body class=" w-screen flex overflow-hidden font-poppins">
+    @include('partials.sidebaradmin')
     @yield('body')
-    @include('partials.footer')
+
     <script src="{{asset('src/index.js')}}"></script>
 </body>
 </html>

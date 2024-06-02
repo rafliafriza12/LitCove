@@ -44,9 +44,16 @@ class UserController extends Controller
         ]);
 
         if(Auth::attempt($credential)){
-            $request->session()->regenerate();
-            return redirect('/');
+            if(auth()->user()->role === 1){
+                $request->session()->regenerate();
+                return redirect('/admin/books/all');
+            }else{
+                $request->session()->regenerate();
+                return redirect('/');
+            }
         }
+
+        return redirect('/landing');
     }
 
     public function signout(Request $request)
