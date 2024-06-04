@@ -21,7 +21,7 @@
                           <a href="/cart/{{auth()->user()->id}}" class="hover:underline">Your Orders</a>
                       </li>
                   </ul>
-                  @endauth
+                  @else
                   <ul class=" text-gray-400 font-medium">
                     <li class="mb-4">
                         <a href="/signin" class="hover:underline">Your Account</a>
@@ -30,6 +30,7 @@
                         <a href="/signin" class="hover:underline">Your Orders</a>
                     </li>
                 </ul>
+                  @endauth
               </div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold  uppercase text-white">Contact Us</h2>

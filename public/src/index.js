@@ -94,7 +94,7 @@ const buy = (judul,penulis,kategori,user,email) =>{
     console.log("haloo");
     const text = `Haloo+admin.%0ASaya%0ANama+Lengkap+:+${user}%0AEmail+:+${email}.%0Aingin+membeli+buku.%0AJudul+:+${judul}%0APenulis+:+${penulis}%0AKategori+:+${kategori}`;
     // event.preventDefault();
-    const url = `https://web.whatsapp.com/send?phone=6283197475917&text=${text}`;
+    const url = `https://web.whatsapp.com/send?phone=6281360258927&text=${text}`;
 
     window.open(url, "_blank");
 }

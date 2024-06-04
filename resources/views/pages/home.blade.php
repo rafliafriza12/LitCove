@@ -2,8 +2,8 @@
 @section('title', 'Home')
     
 @section('body')
-    <div class=" w-screen overflow-x-hidden bg-[#F6EEE0] flex gap-20 flex-col px-28 pt-20 pb-12">
-        <div class=" w-full h-[45vh] mt-20 rounded-2xl">
+    <div class=" w-screen overflow-x-hidden bg-[#F6EEE0] flex items-center gap-20 flex-col px-28 pt-20 pb-12">
+        <div class=" w-[90%] h-[30vh] mt-20 overflow-hidden rounded-2xl">
             <img class=" w-full h-full object-cover rounded-2xl" src="{{asset(url(''.$iklan->image_path))}}" alt="">
         </div>
 
